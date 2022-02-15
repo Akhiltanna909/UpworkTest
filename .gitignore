@@ -1,0 +1,133 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+npm-debug.log*
+*.code-workspace
+
+.idea/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+ios/build
+ios/Pods
+android/.gradle
+android/app/build
+android/build
+coverage/
+dist/
+node_modules/
+tmp/
+temp/
+hooks/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
+$RECYCLE.BIN/
+
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+
+*.rdb
+
+# OSX
+#
+.DS_Store
+
+# Android Studio
+*.hprof
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+android/app/release/
+android/.project
+android/.settings
+android/app/.classpath
+android/app/.project
+android/app/.settings/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+*.log
+
+# BUCK
+buck-out/
+\.buckd/
+# *.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# haste map / metro cache files 
+metro-cache/
+haste-map-*
+
+package-lock.json
+
+# haste map / metro cache files 
+metro-cache/
+haste-map-*
+
+# Ignore .hprof files. They are used for monitoring java
+# heap dump
+*.hprof
+
+# ignore jest files
+.jest/
+
+# AppStore build artifacts
+*.dSYM.zip
+*.mobileprovision

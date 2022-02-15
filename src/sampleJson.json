@@ -1,0 +1,44 @@
+{
+  "excersices": [
+    {
+      "language": "english",
+      "questions": [
+        {
+          "choices": ["hearing", "sleeping", "watching", "eating"],
+          "correct_answer": "hearing",
+          "question": "What are your ears for _________"
+        },
+        {
+          "choices": ["car", "bike", "plane", "rocket"],
+          "correct_answer": "car",
+          "question": "Tesla is _________ company"
+        },
+        {
+          "choices": ["hearing", "sleeping", "watching", "eating"],
+          "correct_answer": "hearing",
+          "question": "What are your ears for _________"
+        }
+      ]
+    },
+    {
+      "language": "germany",
+      "questions": [
+        {
+          "choices": ["Hören", "Schlafen", "Aufpassen", "Essen"],
+          "correct_answer": "Hören",
+          "question": "Wofür sind deine Ohren ______"
+        },
+        {
+          "choices": ["Wagen", "Fahrrad", "Flugzeug", "Rakete"],
+          "correct_answer": "Wagen",
+          "question": "Tesla ist _________ Unternehmen"
+        },
+        {
+          "choices": ["Hören", "Schlafen", "Aufpassen", "Essen"],
+          "correct_answer": "Hören",
+          "question": "Wofür sind deine Ohren ______"
+        }
+      ]
+    }
+  ]
+}
